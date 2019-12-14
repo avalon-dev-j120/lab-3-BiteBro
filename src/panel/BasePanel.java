@@ -17,6 +17,7 @@ public class BasePanel extends JFrame{
 
         fr.setIconImage(Toolkit.getDefaultToolkit().getImage("icon/calcul.png"));
         fr.setMinimumSize(new Dimension(280, 420));
+
         fr.setLayout(new BorderLayout());
 
         outTextField.setFont(new Font("0", Font.BOLD, 24));
